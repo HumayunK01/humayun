@@ -67,7 +67,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   z-index: 10;
-  background: #7686FF;
+  background: #7686ff;
 }
 
 header .logo {
@@ -161,7 +161,7 @@ header .search .fa-search {
 
 .banner .content a {
   display: inline-block;
-  background: #7686FF;
+  background: #7686ff;
   color: #fff;
   padding: 8px 20px;
   text-decoration: none;
@@ -213,7 +213,7 @@ header .search .fa-search {
 footer {
   position: relative;
   width: 100%;
-  background: #7686FF;
+  background: #7686ff;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
