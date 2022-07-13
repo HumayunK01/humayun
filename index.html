@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <title>Humayun Khan</title>
+  </head>
+  <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
+
+    <header>
+      <a href="#" class="logo">Humayun Khan</a>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="Contact Me/index.html">Contact Me</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="content">
+        <h2>FUTURE PROOF YOURSELF</h2>
+        <p>
+          Learn the skills needed to become indispensable,
+          <br />do great work and thrive in the 21st Century.
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <img src="assets/image.png" class="image" />
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0b968cf647.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 1500);
+    </script>
+  </body>
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <p>©Humayun's Website | All Rights Reserved</p>
+  </footer>
+</html>
